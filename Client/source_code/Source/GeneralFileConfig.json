@@ -1,0 +1,31 @@
+{
+  "email": {
+    "username": "qthong2004@gmail.com",
+    "password": "QT",
+    "mail_server": "172.0.0.1",
+    "smtp_port": 2225,
+    "pop3_port": 3335,
+    "autoload": 10
+  },
+  "folder": {
+    "default": "Inbox",
+    "rules": [
+      {
+        "From": ["ahihi@testing.com", "ahuu@testing.com"],
+        "To_Folder1": "Project"
+      },
+      {
+        "Subject": ["urgent", "ASAP", "important"],
+        "To_Folder2": "Important"
+      },
+      {
+        "Content": ["report", "meeting"],
+        "To_Folder3": "Work"
+      },
+      {
+        "Spam": ["virus", "hack", "crack"],
+        "To_Folder4": "Spam"
+      }
+    ]
+  }
+}
